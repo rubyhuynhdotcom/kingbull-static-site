@@ -52,6 +52,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// KINGBULL Brand Colors
+				'kb-blue': 'hsl(var(--kb-blue))',
+				'kb-green': 'hsl(var(--kb-green))',
+				'kb-gold': 'hsl(var(--kb-gold))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +66,47 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'sans': ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+			},
+			fontSize: {
+				'fluid-xs': 'var(--text-xs)',
+				'fluid-sm': 'var(--text-sm)',
+				'fluid-base': 'var(--text-base)',
+				'fluid-lg': 'var(--text-lg)',
+				'fluid-xl': 'var(--text-xl)',
+				'fluid-2xl': 'var(--text-2xl)',
+				'fluid-3xl': 'var(--text-3xl)',
+				'fluid-4xl': 'var(--text-4xl)',
+			},
+			spacing: {
+				'fluid-1': 'var(--space-1)',
+				'fluid-2': 'var(--space-2)',
+				'fluid-3': 'var(--space-3)',
+				'fluid-4': 'var(--space-4)',
+				'fluid-6': 'var(--space-6)',
+				'fluid-8': 'var(--space-8)',
+				'fluid-12': 'var(--space-12)',
+				'fluid-16': 'var(--space-16)',
+				'fluid-24': 'var(--space-24)',
+				'fluid-32': 'var(--space-32)',
+			},
+			backgroundImage: {
+				'gradient-brand': 'var(--gradient-brand)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-gold': 'var(--gradient-gold)',
+			},
+			boxShadow: {
+				'brand': 'var(--shadow-brand)',
+				'base': 'var(--shadow-base)',
+				'lg': 'var(--shadow-lg)',
+				'sm': 'var(--shadow-sm)',
+			},
+			transitionDuration: {
+				'fast': 'var(--transition-fast)',
+				'base': 'var(--transition-base)',
+				'slow': 'var(--transition-slow)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
