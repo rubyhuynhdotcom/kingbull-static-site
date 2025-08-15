@@ -3,6 +3,13 @@ import StaticNavigation from "@/components/StaticNavigation";
 import StaticHero from "@/components/StaticHero";
 import CaseStudySection from "@/components/CaseStudySection";
 import PDFLibrarySection from "@/components/PDFLibrarySection";
+import VideoSection from "@/components/VideoSection";
+import DealerPortalSection from "@/components/DealerPortalSection";
+import MapSection from "@/components/MapSection";
+import SupportSection from "@/components/SupportSection";
+import NewsSection from "@/components/NewsSection";
+import RDSection from "@/components/RDSection";
+import ContactSection from "@/components/ContactSection";
 import StaticFooter from "@/components/StaticFooter";
 
 const Index = () => {
@@ -68,63 +75,28 @@ const Index = () => {
         <StaticHero />
         <CaseStudySection />
         <PDFLibrarySection />
+        <VideoSection />
+        <DealerPortalSection />
+        <MapSection />
+        <SupportSection />
         
-        {/* Placeholder sections for remaining content */}
-        <section id="video" className="py-fluid-24 bg-muted/30">
+        {/* Logistics Calculator - Placeholder for now */}
+        <section id="logistics" className="py-fluid-24 bg-gradient-to-br from-emerald-50 to-blue-50">
           <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Video Quy trình Sản xuất & Năng lực Nhà máy</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
+            <h2 className="text-fluid-3xl font-black mb-8 bg-gradient-to-r from-kb-green to-emerald-600 bg-clip-text text-transparent">
+              Công cụ Tính Logistics & Kho Bãi
+            </h2>
+            <p className="text-muted-foreground mb-8">Tính toán tối ưu chi phí vận chuyển và lộ trình giao hàng</p>
+            <div className="bg-white rounded-2xl p-8 shadow-xl max-w-2xl mx-auto border border-emerald-100">
+              <p className="text-lg font-medium text-emerald-700">🚀 Sắp ra mắt</p>
+              <p className="text-sm text-gray-600 mt-2">Công cụ tính toán logistics thông minh đang được hoàn thiện</p>
+            </div>
           </div>
         </section>
         
-        <section id="portal" className="py-fluid-24">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Khu vực Dành cho Đại lý & Trang trại</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="map" className="py-fluid-24 bg-muted/30">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Bản đồ Năng lực Cung ứng</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="support" className="py-fluid-24">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Hỗ trợ Kỹ thuật 24/7</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="logistics" className="py-fluid-24 bg-muted/30">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Công cụ Tính Logistics & Kho Bãi</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="news" className="py-fluid-24">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Tin tức Ngành & Phân tích Thị trường</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="rd" className="py-fluid-24 bg-muted/30">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Chương trình Hợp tác R&D</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
-        
-        <section id="contact" className="py-fluid-24">
-          <div className="container-fluid text-center">
-            <h2 className="text-fluid-3xl font-black mb-8">Liên hệ</h2>
-            <p className="text-muted-foreground">Coming soon...</p>
-          </div>
-        </section>
+        <NewsSection />
+        <RDSection />
+        <ContactSection />
       </main>
       
       <StaticFooter />
